@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="bg-orange-100 border-solid border-orange-200 border-b-4 text-center p-7">  
+      <h1 class="text-xl font-semibold">Quiz sur les animés - Sauras-tu tous les reconnaitre?</h1>
+  </header>
+
+<main>
+  <h2 class="text-2xl font-bold mt-10 ml-[200px] pb-2">Question 1/5</h2>
+  <hr>
+  <p class="text-lg font-semibold text-center mt-10">A quel animé appartient cette image ?</p>
+    
+  <section class="flex justify-center space-x-10"> 
+    <div class="mt-5">
+      <img src ="../../images/question1.jpg"/>
+    </div> 
+    
+    <div class="grid grid-rows-3">
+      <a href="../reponse_fausse/rf1.html" class="pt-10">
+        <button class="font-semibold border-orange-200 border-2 rounded-xl hover:bg-orange-200 hover:text-white focus:bg-red-50 focus:border-red-500 focus:text-black py-2 px-8">
+          Naruto
+        </button>
+      </a>
+
+      <a href="../reponse_vraie/rv1.html" class="pt-5">
+        <button class="font-semibold border-orange-200 border-2 rounded-xl hover:bg-orange-200 hover:text-white focus:bg-green-50 focus:border-green-500 focus:text-black py-2 px-8">
+          One Piece
+        </button>
+      </a>
+
+      <a href="../reponse_fausse/rf1.html">
+        <button class="font-semibold border-orange-200 border-2 rounded-xl hover:bg-orange-200 hover:text-white focus:bg-red-50 focus:border-red-500 focus:text-black py-2 px-8">
+          Dragon Ball
+        </button>
+      </a>
+    </div>   
+</section>
+
+  <div class="flex justify-center">
+    <a href="./q2.html">
+      <button class="bg-teal-500 hover:bg-teal-700 text-white font-bold rounded py-2 px-4 my-10">
+        Passer cette question
+      </button>
+    </a>
+  </div>
+</main> 
+  
+  <footer class="bg-orange-100 border-solid border-orange-200 border-t-4 text-center text-sm p-7">
+    <p>Copyright Soiz'MM&copy;</p>
+  </footer>  
+</body>
+</html>
